@@ -1,0 +1,14 @@
+# The time value is the time span (given in seconds) you have to sneak twice to toggle your game mode.
+time: 2
+
+# The game mode you will get in after you were in creative mode and toggled your game mode.
+# Possibilities: SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR
+defaultGameMode: SURVIVAL
+
+# The messages are up to you. 
+noPermission: "&4You don't have permission to execute this command!"
+noPlayer: "&4This command can only be executed by a player."
+reloadSuccess: "&7The configuration has been &asuccessfully &7reloaded!"
+reloadFail: "&cAn error occured while reloading the configuration: %error%"
+toggleEnable: "&aEnabled. &7You can now change your game mode by sneaking twice."
+toggleDisable: "&cDisabled. &7SneakSwitch won't change your game mode anymore."
