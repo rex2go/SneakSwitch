@@ -101,6 +101,7 @@ public class SneakSwitch extends JavaPlugin implements Listener, CommandExecutor
 
             try {
                 reloadConfig();
+                setupConfig();
                 sendMessage(player, reloadSuccessMessage);
             } catch (Exception e) {
                 sendMessage(player, reloadFailMessage.replaceAll("%error%", e.getMessage()));

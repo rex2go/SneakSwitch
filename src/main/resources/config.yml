@@ -1,5 +1,5 @@
-# The time value is the time span (given in seconds) you have to sneak twice to toggle your game mode.
-time: 2
+# The time value is the time span (given in ticks) you have to sneak twice to toggle your game mode.
+time: 40
 
 # The game mode you will get in after you were in creative mode and toggled your game mode.
 # Possibilities: SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR
